@@ -1,0 +1,37 @@
+{
+  "name": "proyecto-restaurante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Maya",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "connect-session-sequelize": "^7.1.7",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "express-session-sqlite": "^2.1.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.17.7",
+    "@types/morgan": "^1.9.4",
+    "@types/passport": "^1.0.12",
+    "@types/passport-local": "^1.0.35",
+    "nodemon": "^3.0.1"
+  }
+}
