@@ -48,6 +48,7 @@ app.use(require("./routes/index.routes").router);
 app.use(require("./routes/auth.routes").router);
 app.use(require("./routes/usuario.routes").router);
 app.use(require("./routes/admin.routes").router);
+app.use(require("./routes/plato.routes").router);
 app.use(require("./routes/comentario.routes").router);
 
 // *** PUBLICS
@@ -74,3 +75,9 @@ async function main() {
 }
 
 main();
+
+// **Para ejecutarla en el movil
+/*
+ * app.listen((port = 3000, "<ip de la PC>"), () => console.log(""));
+ * En el navegador en lugar de localhost:3000 seria <ip de la PC:3000>
+ */
